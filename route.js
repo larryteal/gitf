@@ -5,7 +5,7 @@ router.get('/',ctx => {
     ctx.body =  'hello word';
 });
 router.get('/home',ctx => {
-    ctx.body = 'is home page'
+    ctx.body = 'Welcome home page'
 })
 
 module.exports = router;
