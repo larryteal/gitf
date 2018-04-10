@@ -2,10 +2,10 @@ let Router = require('koa-router');
 let router = new Router();
 
 router.get('/',ctx => {
-    ctx.body =  'hello word';
+    ctx.body =  'Hello Word !!';
 });
 router.get('/home',ctx => {
-    ctx.body = 'Welcome home page'
+    ctx.body = 'Welcome home page !'
 })
 
 module.exports = router;
