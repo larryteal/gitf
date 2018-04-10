@@ -2,5 +2,5 @@
 practice
 # add text
 hello there!
-# firt release 
+# first release 
 release test
