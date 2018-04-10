@@ -1,8 +1,7 @@
 let Koa  = require('koa');
+let router = require('./route')
 
 let app = new Koa();
 
-app.use(ctx => {
-    ctx.body = 'hello word'
-})
+app.use(router.routes())
 app.listen(3300);
